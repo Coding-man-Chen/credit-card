@@ -2,7 +2,7 @@ import { Card, Row, Col } from 'antd'
 const TopCard = () => {
     return (
         <>
-            <h1 className='m-5'>Kreditkarten-Vergleich: Top Kreditkarten 2024</h1>
+            <h1 className='m-5' style={{fontWeight:'900'}}>Kreditkarten-Vergleich: Top Kreditkarten 2024</h1>
             <Row align={'center'} gutter={[24, { xs: 8, sm: 16, md: 24, lg: 32 }]}>
                 <Col xs={24} md={16} lg={12} xl={9}>
                     <Card className='teaserbox teaserbox_eins py-0'>
