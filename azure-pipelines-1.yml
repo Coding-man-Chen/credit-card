@@ -59,7 +59,7 @@ stages:
                 - task: AzureWebApp@1  # Deploy to Azure Web App
                   inputs:
                     azureSubscription: $(azureSubscription)  # Your Azure subscription name or service connection name
-                    appName: '$(appName)'
+                    appName: '$(webAppName)'
                     slotName: 'Production'  # The name of the deployment slot to deploy to
                     package: '$(Pipeline.Workspace)/drop'  # Path to the published artifacts
                   displayName: 'Deploy to Azure Web App Service'
